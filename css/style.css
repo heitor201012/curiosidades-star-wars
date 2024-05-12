@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d7d7d7;
+    font-size: medium;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+p {
+    color: #555;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+}
+#dov {
+    display: flex;
+    justify-content: center;
+}
+a {
+    color: black;
+    font-size: 1.5rem;
+}
+h1 {
+    font-size: 3rem;
+}
+strong {
+    font-weight: 1000;
+    font-size: 4rem;
+}
+#personagens {
+    font-size: 1.5rem;
+}
+#naves {
+    font-size: 1.5rem;
+}
+#bastidores {
+    font-size: 1.5rem;
+}
+#planetas {
+    font-size: 1.5rem;
+}
+#historia {
+    font-size: 1.5rem;
+}
+em {
+    font-size: 1.7rem;
+}
